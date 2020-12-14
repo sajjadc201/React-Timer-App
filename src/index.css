@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --main-font: “Roboto”, sans-serif;
+  --button-border: 1px solid #000000;
+  --button-text-size: 1.5em;
+}
+
+body,
+div,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  :root {
+    --timer-height: 100%;
+    --timer-width: 100%;
+    --button-text-size: 4em;
+  }
+}

@@ -1,0 +1,17 @@
+.app-container {
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  height: 500px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px grey;
+  border-radius: 30px;
+}
